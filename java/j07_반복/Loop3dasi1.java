@@ -1,0 +1,21 @@
+package j07_반복;
+
+import java.util.Scanner;
+
+public class Loop3dasi1 {
+    public static void main(String[] args) {
+
+   Scanner scanner = new Scanner(System.in);
+
+   int n = 0;
+
+        System.out.println("몇번 반복할지 입력하세요: ");
+        n= scanner.nextInt();
+
+        for (int i= 0; i<n; i++) {
+            System.out.println("i: " + (i+1));
+        }
+
+
+    }
+    }
