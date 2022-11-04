@@ -9,7 +9,7 @@ package j13_추상화.인터페이스;
 //상수는 선언할 수 있다. ex) public final String NAME = "switch";
 // 상수선언에 private은 안된다. getsetter  때문에.. 접근지정자  public  사용
 public interface Press {
-    public final String NAME = "Press";
+    public final String NAME = "button";
 
     public void onPressed();
 

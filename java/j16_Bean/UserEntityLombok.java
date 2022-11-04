@@ -1,11 +1,9 @@
 package j16_Bean;
 
-import lombok.ToString;
-
-import javax.annotation.processing.Generated;
+import lombok.*;
 import java.util.Objects;
 
-    @NoArgsConstructor //아규먼트가 없다. 매개변수가 전부 다 있다.
+    @NoArgsConstructor
     @AllArgsConstructor
 //    @Getter
 //    @Setter
@@ -17,4 +15,5 @@ import java.util.Objects;
     private String password;
     private String email;
     private String name;
-}
+
+    }

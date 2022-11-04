@@ -12,5 +12,6 @@ public class Main {
         remoteControl.onPressedVolumeDownButton();
         remoteControl.onDownVolumeUpButton();
         remoteControl.onDownVolumeDownButton();
+
     }
 }

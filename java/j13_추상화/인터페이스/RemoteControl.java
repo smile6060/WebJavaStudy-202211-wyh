@@ -22,10 +22,17 @@ public class RemoteControl {
     public void onPressedVolumeDownButton() {
         volumeDownButton.onPressed();
     }
+//
+//    public void onDownVolumeUpButton(volumUpButton.onDown); {}
+//
+//    public void onDownVolumeUpButton(volumDownButton.onDown); {}
 
-    public void onDownVolumeUpButton(volumUpButton.onDown); {}
+    public void onDownVolumeUpButton() {
+        volumeUpButton.onDown();
+    }
 
-    public void onDownVolumeUpButton(volumDownButton.onDown); {}
+    public void onDownVolumeDownButton() {
+        volumeDownButton.onDown();
+    }
 
-    public void onDownVolumeDownButton() {}
 }

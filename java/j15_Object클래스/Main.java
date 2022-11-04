@@ -4,10 +4,10 @@ public class Main {
     public static void main(String[] args) {
         ObjectTest objectTest = new ObjectTest("김준일", "부산"); // 클래스 생성
 
-        int hashCod = objectTest.hashCode();
+        int hashCode = objectTest.hashCode();
 
         System.out.println(hashCode);
-        System.out.println(Integer.toHexString(hashCod)); // Integer를 16진수로 바꿔라 = toHexString
+        System.out.println(Integer.toHexString(hashCode)); // Integer를 16진수로 바꿔라 = toHexString
 
         System.out.println(objectTest);
     }

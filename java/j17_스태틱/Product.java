@@ -1,8 +1,7 @@
 package j17_스태틱;
 
-import lombok.AllArgsConstructor;
 import lombok.Data;
-import lombok.ToString;
+
 // static은 공유하는 영역이다.
 @Data
 public class Product {

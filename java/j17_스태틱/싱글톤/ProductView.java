@@ -1,7 +1,5 @@
 package j17_스태틱.싱글톤;
 
-import j17_스태틱.Product;
-
 public class ProductView {
     private static ProductView instance = null; // instance는 ProductView의 주소값을 담을 수 있다.
 

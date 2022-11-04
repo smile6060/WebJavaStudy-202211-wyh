@@ -13,6 +13,7 @@ public class AnimalArrayMain {
         for(int i = 0; i < animals.length; i++) {
             animals[i].move();
         }
+
         for(int i = 0; i < animals.length; i++) {
             if(animals[i] instanceof Human) { // human으로 생성된 녀셕인가?
 //                Human h = (Human)animals[i];

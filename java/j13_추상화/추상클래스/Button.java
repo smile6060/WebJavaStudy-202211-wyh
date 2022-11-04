@@ -14,4 +14,8 @@ public abstract class Button implements Press, Up, Down {
 
     @Override
     public void onUp() {}
+
+    public abstract void OnDown();
+
+    public abstract void ondown();
 }
