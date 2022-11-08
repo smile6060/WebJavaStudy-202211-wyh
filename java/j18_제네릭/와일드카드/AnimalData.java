@@ -11,13 +11,12 @@ public class AnimalData<T> {
     public void printData() {
         ((Animal) animal).move();
 
-        if(animal.getClass() == Human.class) {
-            ((Human) animal.readBooks();
-        } else if(animal.getClass() == Tiger.class) {
+        if(animal.getClass() == Human.class){
+            ((Human) animal).readBooks();
+        }else if(animal.getClass() == Tiger.class){
             ((Tiger) animal).hunting();
-
-
         }
+
         System.out.println();
     }
 }
