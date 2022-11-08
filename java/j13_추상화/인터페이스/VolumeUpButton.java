@@ -1,7 +1,5 @@
 package j13_추상화.인터페이스;
 
-import j13_추상화.추상클래스.Button;
-
 public class VolumeUpButton extends Button {
 
     @Override
@@ -13,5 +11,4 @@ public class VolumeUpButton extends Button {
     public void onDown() {
         System.out.println("음량을 계속 올립니다.");
     }
-
 }
